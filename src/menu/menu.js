@@ -1,5 +1,6 @@
 import React from "react";
 import "./menu.css"
+import phone from "../img/phone.png";
 
 const Menu = ()=> {
     return (
@@ -17,6 +18,10 @@ const Menu = ()=> {
                                     <li className="nav-item">
                                 <a className="nav-link" href="#">Остальное</a>
                             </li>
+                            <img className="phone" src={phone}/>
+                            <div className="phoneNumber">
+                                <p>Номер:</p><p className="number">+7853525325</p>
+                            </div>
                         </ul>
                     </div>
                 </div>

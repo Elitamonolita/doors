@@ -5,3 +5,17 @@
 .menuPadding {
 padding: 0 30px;
 }
+.phone {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 70%;
+    margin-top: 5px;
+}
+.phoneNumber {
+    position: absolute;
+    left: 75%;
+}
+.number {
+    margin-top: -20px;
+}
