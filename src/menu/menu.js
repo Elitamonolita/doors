@@ -6,10 +6,24 @@ const Menu = ()=> {
     return (
         <div>
             <div className="head-block">
+                <div>
                 <h3 className="name">Двери Окна Оптим</h3>
                 <div className="name-rf">"Двериокна.рф"</div>
-                <img src={img} className="logo-number"></img>
             </div>
+                <div className="second-head-block">
+                    <div className="block-number">
+                <img src={img}></img>
+                    <p className="number">+79120941094421</p>
+                </div>
+                <button type="button" className="btn btn-primary btn-sm bt1">Цена</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Двери</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Окна</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Услуги</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Сотрудничество</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Товары</button>
+                </div>
+            </div>
+
         </div>
     )
 }
