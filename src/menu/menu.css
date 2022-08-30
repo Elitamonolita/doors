@@ -1,21 +1,19 @@
-.cursive {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
+.head-block {
+    background-color: #b1b4b5;
+    width: 100%;
+    display: block;
 }
-.menuPadding {
-padding: 0 30px;
+.name {
+padding-left: 20px;
+    padding-top: 20px;
 }
-.phone {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 70%;
-    margin-top: 5px;
+.name-rf {
+    position: relative;
+    padding-left: 90px;
+    top: -10px;
+    opacity: .8;
+    padding-bottom: 5px;
 }
-.phoneNumber {
-    position: absolute;
-    left: 75%;
-}
-.number {
-    margin-top: -20px;
+.logo-number {
+width: 32px;
 }
