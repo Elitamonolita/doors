@@ -23,7 +23,7 @@ const Menu = ()=> {
                 <button type="button" className="btn btn-primary btn-sm bt1">Товары</button>
                 </div>
             </div>
-
+            <div className="line-bar"></div>
         </div>
     )
 }

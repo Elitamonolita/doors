@@ -1,13 +1,21 @@
 import './App.css';
-import Menu from "./menu/menu"
 import MainPage from "./main-page/main-page";
+import Menu from "./menu/menu";
+import React, {Component} from "react";
+import TextWindow from "./text-window/text-window";
+import Service from "./services/services"
 
-function App() {
-  return (
-    <div>
-      <MainPage/>
+export default class App extends Component{
+    service = new Service()
+    render() {
+
+    return (
+    <div className="product-main-menu">
+        <Menu/>
+        <TextWindow/>
+        <MainPage swapiService={this.service}/>
     </div>
   );
 }
+}
 
-export default App;
