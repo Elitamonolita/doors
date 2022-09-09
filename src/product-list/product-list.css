@@ -1,9 +1,12 @@
-.main {
-    margin-top: 30px;
-    width: 100%;
+
+.auto-ad {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-@media screen and (max-width: 1058px) {
-    .main {
-        padding-left: 20px;
-    }
+.header {
+    text-align: center;
+    float: left;
 }

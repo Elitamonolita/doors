@@ -1,6 +1,9 @@
 import React, {Component} from "react";
 import ProductList from "../product-list/product-list";
 import "../services/services";
+import ProductMenu from "../product-menu/product-menu";
+import "./product-details.css";
+
 export default class ProductDetails extends Component {
     state = {
         data: []
@@ -16,8 +19,10 @@ export default class ProductDetails extends Component {
     render() {
         const {data} = this.state;
         const content = data ? <ProductList productData={data}></ProductList> : null;
+        const product = data ? <ProductMenu></ProductMenu> : null;
         return (
             <div>
+                {product}
                 {content}
             </div>
         )

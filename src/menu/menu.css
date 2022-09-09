@@ -38,11 +38,3 @@ width: 32px;
     margin-left: 10px;
     font-family: cursive;
 }
-@media screen and (max-width: 1131px) {
-    .name-rf {
-        padding-left: 20px;
-    }
-    .line-bar {
-        margin-top: 5px;
-    }
-}

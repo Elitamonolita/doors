@@ -1,7 +1,6 @@
 import React from "react";
 import "./product-list.css";
 import ProductItems from "../product-items/product-items";
-import ProductMenu from "../product-menu/product-menu";
 
 const ProductList = (props) => {
     const {productData} = props;
@@ -11,10 +10,9 @@ const ProductList = (props) => {
         )
     })
     return (
-            <div className="main">
-                <ProductMenu/>
+<div className="header">
             {elements}
-            </div>
+</div>
     )
 
 }
