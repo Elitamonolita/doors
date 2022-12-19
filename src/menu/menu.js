@@ -15,7 +15,7 @@ const Menu = ()=> {
                 <img src={img}></img>
                     <p className="number">+79120941094421</p>
                 </div>
-                <button type="button" className="btn btn-primary btn-sm bt1">Цена</button>
+                <button type="button" className="btn btn-primary btn-sm bt1">Главная</button>
                 <button type="button" className="btn btn-primary btn-sm bt1">Двери</button>
                 <button type="button" className="btn btn-primary btn-sm bt1">Окна</button>
                 <button type="button" className="btn btn-primary btn-sm bt1">Услуги</button>

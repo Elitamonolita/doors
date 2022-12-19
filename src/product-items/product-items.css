@@ -7,11 +7,29 @@
     width: 250px;
     margin-left: 10px;
     display: inline-block;
-    margin-right: auto;
     margin-top: 10px;
+
 }
 .product-name {
+font-family: cursive;
+}
+.product-material {
     float: left;
+    margin-top: -28px;
+    padding: 0 10px;
+    opacity: .5;
+    font-size: 15px;
+}
+.img-block{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+.sum {
+    position: absolute;
+    margin-top: 20px;
+  margin-left: 90px;
 }
 /*@media screen and (max-width: 1528px) {*/
 /*    .block-f {*/
